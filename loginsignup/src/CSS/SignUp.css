@@ -1,0 +1,71 @@
+
+.signup-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px;
+}
+.checkbox-div{
+    display: flex;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+.btn, .btn-login { 
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-login{
+    background-color: red;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.btn-div{
+    display:flex ;
+    justify-content: space-between;
+}
